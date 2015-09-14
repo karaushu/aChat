@@ -33,3 +33,6 @@ navigator.webkitGetUserMedia({ video: false, audio: true }, function (stream) {
 }, function (err) {
     console.error(err)
 });
+/*
+*Many thanks to letswritecode for awesome tutorial
+*/

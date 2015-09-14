@@ -9,4 +9,4 @@
 <p>2. In terminal 'cd' to the project(aChat) folder, and run command <b>npm install</b> to install the dependencies;</p>
 <p>3. After you have all dependencies, run <b>npm start</b> to start the app;</p>
 <p>4. In your browser type the next URL "localhost:9966";</p>
-<p>Great! seems to work:) For detailed descriptions click "Need help?" in app</p> 
+<p>Great! seems to work:) For detailed descriptions, click "Need help?" in app</p> 

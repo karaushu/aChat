@@ -4,8 +4,10 @@
  * позволяет получать ваши скрипты и обрабатывать их быстро в локальной среде.
  */
 
-//сделать и для других браузеров
-navigator.webkitGetUserMedia({ video: false, audio: true }, function (stream) {
+navigator.getUserMedia = navigator.getUserMedia ||
+    navigator.webkitGetUserMedia ||
+    navigator.mozGetUserMedia;
+navigator.getUserMedia({ video: false, audio: true }, function (stream) {
     var Peer = require('simple-peer');
     var peer = new Peer({
         initiator: location.hash === '#caller',

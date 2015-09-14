@@ -1,0 +1,17 @@
+{
+  "name": "aChat",
+  "version": "0.0.1",
+  "description": "simple audio Chat",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo scripts/index.js:package.js"
+  },
+  "author": "Andrew Karaushu",
+  "license": "GNU/GPL",
+  "devDependencies": {
+    "budo": "~4.2.1"
+  },
+  "dependencies": {
+    "simple-peer": "~5.11.5"
+  }
+}
